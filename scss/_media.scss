@@ -1,0 +1,28 @@
+@media only screen and (max-width: 835px) {
+  .member2,
+  .member4,
+  .member6 {
+    position: relative;
+    top: 60px;
+  }
+  .about {
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .member2,
+  .member4,
+  .member6 {
+    position: static;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

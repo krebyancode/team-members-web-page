@@ -1,0 +1,84 @@
+@import "switch";
+@import "media";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: lightcyan;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  max-width: 960px;
+  height: 100vh;
+  margin: auto;
+  overflow: auto;
+  opacity: 0.95;
+}
+
+.switch-box {
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.caption {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.about {
+  width: 50%;
+  margin: 0 6rem;
+}
+
+p#context {
+  font-size: 0.9em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 50px;
+  height: 100%;
+}
+
+.members {
+  padding: 10px;
+  margin: 10px;
+}
+
+.member2,
+.member5 {
+  align-self: end;
+}
+
+img {
+  box-shadow: 1px 5px 10px black;
+  border-radius: 5px;
+}
+
+p.title {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  transform: rotate(90deg);
+  position: relative;
+  bottom: 225px;
+  left: 120px;
+}
+
+h5 {
+  margin-top: 1rem;
+  font-size: 1.2em;
+}
